@@ -47,5 +47,10 @@ html{
 
 input[type="button"]#equal {
     /* border-radius: 50% 50% 50% 50%; */
+    grid-row: span 2;
     background-color: #fa726b;
+}
+
+input[type="button"][value="0"] {
+    grid-column: span 2;
 }
